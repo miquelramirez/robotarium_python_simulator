@@ -1,4 +1,4 @@
-#Import Robotarium Utilities
+
 import rps.robotarium as robotarium
 from rps.utilities.transformations import *
 from rps.utilities.graph import *
@@ -6,7 +6,7 @@ from rps.utilities.barrier_certificates import *
 from rps.utilities.misc import *
 from rps.utilities.controllers import *
 
-# Array representing the geometric distances betwen the agents.  In this case,
+# Array representing the geometric distances between the agents.  In this case,
 # the agents try to form a Rectangle
 L = np.array([
     [3, -1, 0, -1, 0, -1],
